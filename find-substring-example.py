@@ -7,7 +7,7 @@
 
 # Example:
 # Input:
-# ABCDCD
+# ABCDCDC
 # CDC
 # Output:
 # 2
