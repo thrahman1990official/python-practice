@@ -17,3 +17,5 @@ s = input()
 sub = input()
 # then you write in the next line: ABCDCDC
 # then you write in the next line: CDC
+s.count(sub)
+# then you will get an output of: 1
