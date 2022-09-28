@@ -19,14 +19,16 @@ line = input()
 
 indx= int(line.split()[0])
 char = line.split()[1]
-# type 'Hello World'
-# type '6 Z'
+# Input 'Hello World'
+# Input '6 Z'
 indx = line.split()[0]
 char = line.split()[1]
 indx
 # should give an output of '6'
 char
 # should give an output of 'Z'
-
+out = s[:indx] + char + s[indx+1:]
+out
+# should give an Output 'Hello Zorld' 
 
 
