@@ -11,3 +11,9 @@
 # CDC
 # Output:
 # 2
+
+# First you need to create two input values, one for string & 2nd for substring
+s = input()
+sub = input()
+# then you write in the next line: ABCDCDC
+# then you write in the next line: CDC
