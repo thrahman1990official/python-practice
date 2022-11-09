@@ -22,3 +22,39 @@ count, fruit, price = (2, 'apple', 3.5)
 
 # Q7. What built-in list method would you use to remove items from a list?
 # ANSWER: .pop() method
+# EXAMPLE:
+my_list = [1,2,3]
+my_list.pop(0)
+my_list
+>>>[2,3]
+
+# Q8. What is one of the most common use of Python's sys library?
+# ANSWER: to capture command-line arguments given at a file's runtime
+
+# Q9. What is the runtime of accessing a value in a dictionary by using its key?
+# ANSWER: O(1), also called constant time.
+
+# Q10. What is the correct syntax for defining a class called Game, if it inherits from a parent class called LogicGame?
+# ANSWER:
+class Game(LogicGame): pass
+# EXPLANATION: The parent class which is inherited is passed as an argument to the child class. Therefore, here the first option is the right answer.
+
+# Q11. What is the correct way to write a doctest?
+def sum(a, b):
+    """
+    >>> sum(4, 3)
+    7
+
+    >>> sum(-4, 5)
+    1
+    """
+    return a + b
+ 
+# Q12. What built-in Python data type is commonly used to represent a stack?
+# list
+
+# Q13. What would this expression return?
+college_years = ['Freshman', 'Sophomore', 'Junior', 'Senior']
+return list(enumerate(college_years, 2019))
+
+#Output: [(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]
