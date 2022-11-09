@@ -56,5 +56,7 @@ def sum(a, b):
 # Q13. What would this expression return?
 college_years = ['Freshman', 'Sophomore', 'Junior', 'Senior']
 return list(enumerate(college_years, 2019))
-
 #Output: [(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]
+
+# Q14. What is the purpose of the "self" keyword when defining or calling instance methods?
+# ANSWER: self refers to the instance whose method was called.
