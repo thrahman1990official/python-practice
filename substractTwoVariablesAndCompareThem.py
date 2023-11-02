@@ -6,3 +6,7 @@ numY = float(input("Second-Number: "))
 subXandY = numX - numY
 #display the output as a string 
 print("Result: " + str(subXandY))
+if subXandY < 0:
+    print("Above is a Negative Number")
+else:
+    print("Above is a Positive Number")
