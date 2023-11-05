@@ -13,3 +13,9 @@ hamdur = 5==4
 #it should print false
 print(hamdur)
 
+
+#OUTPUT BELOW
+True
+True
+False
+
