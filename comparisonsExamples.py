@@ -23,3 +23,4 @@ rentRahman = 3000
 #it should print false since rentRahman is not less than 2500 even though it is greater than 2000
 print(rentRahman > 2000 and rentRahman < 2500)
 
+
