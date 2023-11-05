@@ -13,9 +13,8 @@ hamdur = 5==4
 #it should print false
 print(hamdur)
 
-
-#OUTPUT BELOW
-True
-True
-False
+#if rentTalhah is equal to 1500
+rentTalhah = 1500
+#it should print true in either case
+print(rentTalhah > 1000 or rentTalhah < 2000)
 
