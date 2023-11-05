@@ -23,4 +23,14 @@ rentRahman = 3000
 #it should print false since rentRahman is not less than 2500 even though it is greater than 2000
 print(rentRahman > 2000 and rentRahman < 2500)
 
+#Below is an example of the current car speed on a Canadian highway in the province of Ontario
+#if it goes above 120, it is fine plus demerit points
+#if it goes under 100, unless there is huge traffic, it is fine but no demerit points
+speedCarHighway = 130
+if speedCarHighway > 120:
+  print("Police: You drive too fast, you are getting fine plus demerit points")
+elif speedCarHighway < 100:
+  print("Police: You drive too slow, you are getting fine but no demerit points")
+else:
+  print("Driver: This is right speed range not too get a ticket, don't need to worry about getting pulled over")
 
