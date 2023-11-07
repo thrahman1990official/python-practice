@@ -34,3 +34,16 @@ elif speedCarHighway < 100:
 else:
   print("Driver: This is right speed range not too get a ticket, don't need to worry about getting pulled over")
 
+#Below is an example using if and else statements to decide whether to select the candidate or not based on degree and experience
+#we first need to ask what the candidate's degree is
+candidateDegree = input("Does the candidate have PHD or MASTERS or BACHELORS degree?")
+#then we need to ask the years of experience
+candidateExperience = input("How many years of experience does candidate have?")
+#now we create the criteria loop for the candidate, where experience
+if candidateDegree == "MASTERS" or candidateDegree == "masters" or candidateDegree == "PHD" or candidateDegree == "phd":
+  if int(candidateExperience) >= 2:
+      print("Candidate has been selected for the interview.")
+  else:
+      print("Candidate doesn't have enough experience for this interview.")
+else:
+      print("Candidate doesn't have right degree for the job position.")
