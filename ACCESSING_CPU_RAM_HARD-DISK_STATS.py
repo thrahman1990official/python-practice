@@ -14,3 +14,5 @@ print(psutil.cpu_percent(interval=1))
 print(psutil.cpu_times())
 #but if you just want to display let us say the system mode using cpu_times
 print(psutil.cpu_times().system)
+#cpu_states will give you the stats for ctx_switches, interrupts, soft_interrupts, syscalls
+print(psutil.cpu_stats())
