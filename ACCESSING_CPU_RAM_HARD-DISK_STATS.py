@@ -11,4 +11,4 @@ print(psutil.cpu_count(logical=False))
 #we need give an interval of 1 second for the cpu usage percentage
 print(psutil.cpu_percent(interval=1))
 #cpu_times will give you the seconds that cpu has spent as a user, nice, system, idle mode
-print(psutil.cpu_times())
+print(psutil.cpu_times().system)
