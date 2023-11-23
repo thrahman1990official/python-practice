@@ -5,3 +5,4 @@ import psutil
 
 #CPU
 print(psutil.cpu_count(logical=False))
+#cpu_count will give you number of cores in the CPU
