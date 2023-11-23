@@ -4,5 +4,7 @@
 import psutil
 
 #CPU
-print(psutil.cpu_count(logical=False))
 #cpu_count will give you number of cores in the CPU
+print(psutil.cpu_count(logical=False))
+#cpu_percent will give you number
+print(psutil.cpu_percent(interval=1))
