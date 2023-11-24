@@ -18,3 +18,7 @@ print(psutil.cpu_times().system)
 print(psutil.cpu_stats())
 #cpu_freq will give you the current, minimum, maximum, frequency of the central-processing-unit
 print(psutil.cpu_freq())
+
+#RAM
+#virtual_memory display total memory, available memory, memory percentage, used memory, free memory, active memory, inactive memory, wired memory
+print(psutil.virtual_memory())
