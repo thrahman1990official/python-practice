@@ -24,3 +24,9 @@ print(psutil.cpu_freq())
 print(psutil.virtual_memory())
 #swap memory will display total swap memory, used swap memory, free swap memory, memory swap percentage, swap input memory, swap output memory
 print(psutil.swap_memory())
+
+#HARD-DISK
+#disk_usage displays total disk usage, used disk, free disk available to use, percentage disk usage
+print(psutil.disk_usage('/').percent)
+#disk_partitions displays all the list partitions
+print(psutil.disk_partitions())
