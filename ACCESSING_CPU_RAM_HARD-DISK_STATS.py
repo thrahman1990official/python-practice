@@ -16,3 +16,5 @@ print(psutil.cpu_times())
 print(psutil.cpu_times().system)
 #cpu_states will give you the stats for ctx_switches, interrupts, soft_interrupts, syscalls
 print(psutil.cpu_stats())
+#cpu_freq will give you the current, minimum, maximum, frequency of the central-processing-unit
+print(psutil.cpu_freq())
