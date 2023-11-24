@@ -20,5 +20,7 @@ print(psutil.cpu_stats())
 print(psutil.cpu_freq())
 
 #RAM
-#virtual_memory display total memory, available memory, memory percentage, used memory, free memory, active memory, inactive memory, wired memory
+#virtual_memory display total virtual memory, available memory, memory percentage, used memory, free memory, active memory, inactive memory, wired memory
 print(psutil.virtual_memory())
+#swap memory will display total swap memory, used swap memory, free swap memory, memory swap percentage, swap input memory, swap output memory
+print(psutil.swap_memory())
