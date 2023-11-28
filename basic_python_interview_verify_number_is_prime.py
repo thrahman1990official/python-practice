@@ -6,9 +6,9 @@
 
 num = int(input("Enter number to verify if it is prime"))
 flag = False
-if num > 1:
-  for i in range(2, num//2)
-    if num % i == 0
+if num > 1: #prime number is a natural number greater than one
+  for i in range(2, num//2): #for the range of numbers are starting from from 2 end till 4
+    if num % i == 0:
      flag = True
       break
 if flag:
