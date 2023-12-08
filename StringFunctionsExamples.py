@@ -34,4 +34,4 @@ print(t.lower())
 #should return talha the tiger
 r = "Rahman Robotics Rahman Robotics Rahman Robotics"
 print(r.count("Robotics", 10, 30))
-             
+print(r.count("Rahman", 10, 30))
