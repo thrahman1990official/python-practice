@@ -17,6 +17,7 @@
 t = "Talha The Tiger"
 m = "131415"
 print(len(t))
+#should output 15, although TalhaTheTiger has 5 + 3 + 5 = 13 characters BUT there is space in front of Tiger and after Talha making it 15
 #convert variable r to string
 s = str(m)
 #display the location where this strong starts from
@@ -32,5 +33,5 @@ print(t.upper())
 #now we want to convert all characters of t into lower regardless if we already have lower characters in it
 print(t.lower())
 #should return talha the tiger
-
+r = "Rahman Robotics Rahman Robotics Rahman Robotics
              
