@@ -32,6 +32,6 @@ print(t.upper())
 #now we want to convert all characters of t into lower regardless if we already have lower characters in it
 print(t.lower())
 #should return talha the tiger
-r = "Rahman Robotics Rahman Robotics Rahman Robotics
+r = "Rahman Robotics Rahman Robotics Rahman Robotics"
 print(r.count("Robotics", 10, 30))
              
