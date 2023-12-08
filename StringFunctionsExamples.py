@@ -34,4 +34,12 @@ print(t.lower())
 #should return talha the tiger
 r = "Rahman Robotics Rahman Robotics Rahman Robotics"
 print(r.count("Robotics", 10, 30))
+#should output 0
 print(r.count("Rahman", 10, 30))
+#should output 1
+#assigning h as all string characters of t converted into upper case
+h = r.upper()
+print(h.isupper())
+#should output true
+print(h.islower())
+#should output as false
