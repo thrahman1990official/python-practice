@@ -27,5 +27,5 @@ print(s.find("14"))
 print(s.find("15"))
 #should output 4
 #now we want to convert all characters of t into upper
-print(t.upper(t))
+print(t.upper())
              
