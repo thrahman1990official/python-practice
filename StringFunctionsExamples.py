@@ -26,6 +26,11 @@ print(s.find("14"))
 #should output 2
 print(s.find("15"))
 #should output 4
-#now we want to convert all characters of t into upper
+#now we want to convert all characters of t into upper regardless if we already have upper characters in it
 print(t.upper())
+#should return TALHA THE TIGER
+#now we want to convert all characters of t into lower regardless if we already have lower characters in it
+print(t.lower())
+#should return talha the tiger
+
              
