@@ -43,3 +43,6 @@ print(h.isupper())
 #should output true
 print(h.islower())
 #should output as false
+print(r.split())
+#output should be
+# ['Rahman', 'Robotics', 'Rahman', 'Robotics', 'Rahman', 'Robotics']
