@@ -46,3 +46,7 @@ print(h.islower())
 print(r.split())
 #output should be
 # ['Rahman', 'Robotics', 'Rahman', 'Robotics', 'Rahman', 'Robotics']
+# if you want to get rid of last s character inside object r
+print(r.strip('s'))
+# your output should be
+#  Rahman Robotics Rahman Robotics Rahman Robotic
