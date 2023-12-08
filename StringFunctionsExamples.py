@@ -12,7 +12,6 @@
 # replace(old, new[, count]) -> Replaces specified phrase with another specified phrase
 # find(sub[, start[, end]]) -> Searches string for specified & returns positive
 # index(sub[, start[, end]]) -> Searches string for specified value & returns positive
-
 #let us say variable 
 t = "Talha The Tiger"
 m = "131415"
@@ -34,4 +33,5 @@ print(t.upper())
 print(t.lower())
 #should return talha the tiger
 r = "Rahman Robotics Rahman Robotics Rahman Robotics
+print(r.count("Robotics", 10, 30))
              
