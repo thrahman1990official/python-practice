@@ -7,4 +7,4 @@ s = "welcome to Talhah Rahman's python script samples"
 #this should print welcome because w starts with 0 with total of 7 string arrays
 print(s[0:7])
 
-print(s[0:6:9])
+print(s[0:7:9])
