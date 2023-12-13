@@ -6,3 +6,5 @@ s = "welcome to Talhah Rahman's python script samples"
 
 #this should print welcome because w starts with 0 and e ends with 6
 print(s[0:6])
+
+print(s[0:6:9])
