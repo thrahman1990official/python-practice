@@ -14,4 +14,4 @@ elif number == 0:
 else:
   for i in range(1, num+1):
       factorial = factorial * i
-  print("Factorial of is", factorial)
+  print("Factorial of is ", factorial)
