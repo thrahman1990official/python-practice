@@ -15,6 +15,10 @@ print('and having fun!')
 print('I\'m studying Python', 'and having fun!')
 # output:
 # I'm studying Python and having fun!
+print('I\'m studying\nPython')
+# output:
+# I'm studying
+# Python
 
 
 
