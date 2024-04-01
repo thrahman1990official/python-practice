@@ -6,3 +6,4 @@ print(greeting)
 # Hello, friend!
 # Hi, everybody!
 # NOTE: DO NOT USE UNDERSCORE '_' IN THE VARIABLE NAME
+
