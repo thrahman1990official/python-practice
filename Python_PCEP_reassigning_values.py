@@ -20,9 +20,12 @@ print(age)
 # Output:
 # 41
 
-# Below is an example of printing multiple texts
+# Below is an example of printing different texts together
 text = 'Talha' + 'Rahman'
 print(text)
+
+# Below is an example of printing same text multiple number of times
+print('Talha' * 5)
 
 
 
