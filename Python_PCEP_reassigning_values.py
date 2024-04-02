@@ -13,6 +13,21 @@ print(age)
 # Output:
 # 41
 
+# Below is an example of incrementation again except a different way to express it
+age = 34
+age += 7
+print(age)
+# Output:
+# 41
+
+# Below is an example of printing multiple texts
+text = 'Talha' + 'Rahman'
+print(text)
+
+
+
+
+
 
 
 
