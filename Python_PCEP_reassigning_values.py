@@ -27,6 +27,14 @@ print(text)
 # Below is an example of printing same text multiple number of times
 print('Talha' * 5)
 
+# Remember that
+print(23+5)
+# and
+print('23' + '5')
+# will not display the same output
+# first one displays addition which equals 28 and the 
+# other one connects to numbers as texts together 235
+
 
 
 
