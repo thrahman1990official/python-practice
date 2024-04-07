@@ -21,14 +21,16 @@ print(~number)
 number = 12
 number << 1
 #should output 24
+#12 * (2^1) = 24
 
 number = 12
 number << 2
 #should output 48
+#12 * (2^2)
 
 number = 12
 number << 3
 #should output 96
-
+#12 * (2^3)
 
 
