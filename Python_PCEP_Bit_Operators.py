@@ -11,4 +11,4 @@ print(first_bit | second_bit)
 first_bit = 0
 second_bit = 0
 #In Boolean algebra below is 1 logical XOR 0 which results in 0
-print(first_bit * second_bit)
+print(first_bit ^ second_bit)
