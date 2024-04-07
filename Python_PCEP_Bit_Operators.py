@@ -13,8 +13,18 @@ second_bit = 0
 #In Boolean algebra below is 1 LOGICAL XOR 0 which results in 0
 print(first_bit ^ second_bit)
 
-first_bit = 0
-print(~first_bit)
-#In Boolean algebra below is LEFT-SHIFT OPERATOR of first_bit
+number = 0
+print(~number)
+#In Boolean algebra below is LEFT-SHIFT OPERATOR of number
 #in case of 0 it should output -1
+
+number = 12
+number << 1
+#should output 24
+
+number = 12
+number << 2
+#should output 48
+
+
 
