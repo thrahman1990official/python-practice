@@ -29,4 +29,11 @@ print(~0)
 #should output 96
 #12 * (2^3)
 
+12 >> 1
+#should output 6
+#12 / (2^1) = 6
+
+12 >> 2
+#should output 3
+#12 / (2^2) = 3
 
