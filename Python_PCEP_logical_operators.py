@@ -6,3 +6,9 @@
 # == equals
 # != not equals
 
+password = input('Do you know secret password? ')
+if password != '--secret':
+    print('not correct')
+else:
+    print('correct password')
+
