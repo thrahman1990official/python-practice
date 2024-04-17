@@ -12,3 +12,8 @@ if password != '--secret':
 else:
     print('correct password')
 
+if True:
+    print('Condition met')
+
+if False:
+    print('Condition met')
