@@ -16,7 +16,7 @@ if True:
     print('Condition met')
 
 if False:
-    print('Condition met
+    print('Condition met')
 
 user_age = int(input('What's your age? '))
 
