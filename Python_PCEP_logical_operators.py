@@ -18,6 +18,11 @@ if True:
 if False:
     print('Condition met')
 
+if 1 == 2:
+    print('true')
+if 2 == 2.0:
+    print('true')
+
 user_age = int(input('What's your age? '))
 
 if user_age > 30:
