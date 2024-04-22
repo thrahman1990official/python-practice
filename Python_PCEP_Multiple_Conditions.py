@@ -7,8 +7,8 @@ else:
   print('Sorry, you do not qualify')
 
 #Output:
-#What's your age? 26
-#What's your country? Germany
+#What's your age? Age_Entered_By_User_In_Integer
+#What's your country? Name_Of_Country_Entered_By_User_String
 #Sorry, you do not qualify
 
 user_country = input('What is your country?')
@@ -18,3 +18,6 @@ if user_country == 'Sweden' or user_country == 'Denmark' or user_country == 'Nor
 else:
   print('Sorry, you do not qualify')
 
+#Output:
+#What is your country? Name_Of_Country_Entered_By_User
+#You can apply for Scandinavian student exchange programme
