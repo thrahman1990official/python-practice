@@ -21,3 +21,9 @@ else:
 #Output:
 #What is your country? Name_Of_Country_Entered_By_User
 #You can apply for Scandinavian student exchange programme
+
+user_country = input('Where do you come from? ')
+if not user_country == 'Germany':
+  print('you are not from Germany!')
+else:
+  print('you are from Germany')
