@@ -43,3 +43,4 @@ else:
 #Output:
 #What is your age? Number_Entered_By_User
 #What is your country? Country_Entered_By_User
+#Should print You Qualify or You don't qualify
