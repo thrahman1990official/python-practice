@@ -40,3 +40,6 @@ if not user_country == 'Germany' and user_age < 25 or \
         print('You qualify!')
 else:
         print('You don\'t qualify!')
+#Output:
+#What is your age? Number_Entered_By_User
+#What is your country? Country_Entered_By_User
