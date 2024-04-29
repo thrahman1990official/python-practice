@@ -15,3 +15,11 @@ print('Finished!')
 # 9
 # 10
 # Finished!
+
+# But when you do counter less than 11
+counter = 1
+while counter > 11:
+    print(counter)
+    counter += 1
+print('Finished!')
+# Finished!
