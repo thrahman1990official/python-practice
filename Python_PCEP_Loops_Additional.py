@@ -40,3 +40,14 @@ else:
     print('else:', i)
 # Output below:    
 # else: 5
+i = 2
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print('else:', i)
+# Output below:    
+# 2
+# 3
+# 4
+# else: 5
