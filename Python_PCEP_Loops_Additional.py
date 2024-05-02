@@ -32,3 +32,10 @@ for a in range(1,6):
 # 5 x 3 = 15
 # 5 x 4 = 20
 # 5 x 5 = 25
+
+i = 5
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print('else:', i)
