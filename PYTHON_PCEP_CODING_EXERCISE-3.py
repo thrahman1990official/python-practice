@@ -6,8 +6,6 @@
 #Your login is {login provided} and you speak {language provided}
 #For example, if the user provides the login h_potter and language British English, show:
 #Your login is h_potter and you speak British English
-#Watch out for typos: you must show the output in this particular format!
-#Note: Use the "Run tests" button to check your solution and mark it as complete. Do NOT use the "Run code" button as it will most likely show an error if you use an input() statement.
 
 login = input('Enter your login: ')
 language = input('Enter your native language: ')
