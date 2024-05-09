@@ -18,4 +18,10 @@ print(top_cities[1])
 print(top_cities[-1])
 # Output:
 # Chicago
+print(top_cities[-2])
+# Output:
+# Los Angeles
+print(top_cities[-3])
+# Output:
+# New York City
 
