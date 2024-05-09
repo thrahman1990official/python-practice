@@ -9,4 +9,8 @@ del top_cities[3:]
 print(top_cities)
 # Output:
 # ['New York City', 'Los Angeles', 'Detroit']
-
+# Below command should delete all cities in the list
+del top_cities[:]
+print(top_cities)
+# Output:
+# []
