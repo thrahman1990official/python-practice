@@ -24,4 +24,9 @@ print(top_cities[-2])
 print(top_cities[-3])
 # Output:
 # New York City
+# Below should print out the list range from New York City to Los Angeles
+print(top_cities[0:2])
+# Output:
+# ['New York City', 'Los Angeles']
+
 
