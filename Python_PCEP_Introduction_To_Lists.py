@@ -4,3 +4,4 @@ city_3 = 'Chicago'
 
 empty_list = []
 top_cities = ['New York City', 'Los Angeles', 'Chicago']
+print(top_cities)
