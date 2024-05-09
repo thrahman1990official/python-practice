@@ -38,6 +38,10 @@ print(random_numbers)
 # Output:
 # [-3, 0, 2, 4, 5]
 
+top_cities = ['New York City', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+print(sorted(top_cities))
+print(top_cities)
+
 random_numbers = [2, 5, 0, -3, 4]
 random_numbers.sort(reverse=True)
 print(random_numbers)
