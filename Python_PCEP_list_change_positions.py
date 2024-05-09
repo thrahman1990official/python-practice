@@ -31,3 +31,7 @@ top_cities.sort()
 print(top_cities)
 # Output:
 # ['Chicago', 'Houston', 'Los Angeles', 'New York City', 'Phoenix']
+
+random_numbers = [2, 5, 0, -3, 4]
+random_numbers.sort()
+print(random_numbers)
