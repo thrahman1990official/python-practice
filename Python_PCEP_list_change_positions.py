@@ -1,8 +1,9 @@
 first = input('Enter 1st number: ')
 second = input('Enter 2nd number: ')
 print('Before swapping:', first, second)
+temporary = first
 first = second
-second = first
+second = temporary
 print('After swapping:', first, second)
 # Input:
 # Enter 1st number: 
@@ -11,4 +12,4 @@ print('After swapping:', first, second)
 # 99
 # Output:
 # Before swapping: 13 99
-# After swapping: 99 99
+# After swapping: 99 13
