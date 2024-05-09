@@ -13,3 +13,10 @@ print('After swapping:', first, second)
 # Output:
 # Before swapping: 13 99
 # After swapping: 99 13
+# Another way to have same input and output above
+first = input('Enter 1st number: ')
+second = input('Enter second number: ')
+print('Before swapping:', first, second)
+first, second = second, first
+print('After swapping:', first, second)
+
