@@ -20,6 +20,8 @@ print('Before swapping:', first, second)
 first, second = second, first
 print('After swapping:', first, second)
 
-
-
-
+top_cities = ['New York City', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+top_cities[0], top_cities[4] = top_cities[4], top_cities[0]
+print(top_cities)
+# Output:
+# ['Phoenix', 'Los Angeles', 'Chicago', 'Houston', 'New York City']
