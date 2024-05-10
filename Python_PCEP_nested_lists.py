@@ -14,3 +14,8 @@ print(cells[0][1])
 print(cells[1][2])
 # Output:
 # B3
+cells = [['A1', 'A2', 'A3'], ['B1', 'B2', 'B3']]
+for x in cells:
+    print('Element:', x)
+Element: ['A1', 'A2', 'A3']
+Element: ['B1', 'B2', 'B3']
