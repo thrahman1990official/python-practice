@@ -8,3 +8,9 @@ print(cells[0])
 print(cells[0][0])
 # Output:
 # A1
+print(cells[0][1])
+# Output:
+# A2
+print(cells[1][2])
+# Output:
+# B3
