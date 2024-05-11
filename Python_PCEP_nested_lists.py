@@ -32,3 +32,15 @@ for x in cells:
 # Element: B2
 # Element: B3
 
+table = [['A1', 'A2', 'A3'], ['B1', 'B2', 'B3']]
+for row in table:
+    for cell in row:
+        print('Element:', cell)
+
+# Output:
+# Element: A1
+# Element: A2
+# Element: A3
+# Element: B1
+# Element: B2
+# Element: B3
