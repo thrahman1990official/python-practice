@@ -21,6 +21,11 @@ else:
 # 15
 # Output:
 # Thank you, that's correct number!
+# Input:
+# Please provide number:
+# 15a
+# Output:
+# Sorry, 15a is not a number!
 
 text = 'Hail Lord Allah The King Of Heavens and Earth'
 text_cap = text.upper()
