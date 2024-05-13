@@ -10,3 +10,9 @@ fav_band = 'Darkroom Familia'
 print(fav_band[:4])
 # Output:
 # Dark
+
+text = 'Hail Lord Allah The King Of Heavens and Earth'
+text_cap = text.upper()
+print(text_cap)
+# Output:
+# HAIL LORD ALLAH THE KING OF HEAVENS AND EARTH
