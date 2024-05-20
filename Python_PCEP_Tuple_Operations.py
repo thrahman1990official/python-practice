@@ -25,4 +25,5 @@ print(user_data)
 
 numbers = (0,1) * 10
 print(numbers)
-
+# Output:
+# (0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)
