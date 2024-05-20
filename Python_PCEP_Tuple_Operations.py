@@ -17,3 +17,12 @@ for element in user_data:
 # Talhahshah
 # Talhahstan
 # 1990
+
+user_data = ('Talhahshah', 'Talhahstan', 1990) + ('Engineer', 'male')
+print(user_data)
+# Output:
+# ('Talhahshah', 'Talhahstan', 1990, 'Engineer', 'male')
+
+numbers = (0,1) * 10
+print(numbers)
+
