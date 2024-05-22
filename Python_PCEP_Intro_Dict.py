@@ -28,3 +28,4 @@ spanish_animals = {
 print(spanish_animals)
 # Output:
 # {'dog': 'el perro', 'cat': 'el gato', 'horse': 'el caballo', 'bird': 'el ave'}
+# the first bird will be replaced by the second bird
