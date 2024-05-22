@@ -8,3 +8,20 @@ emails = {
 print(emails['Mark Steel'])
 # Output:
 # mark@steel.com
+spanish_animals = {
+  'dog': 'el perro',
+  'cat': 'el gato',
+  'horse': 'el caballo',
+  'bird': 'el pajaro'
+}
+print(spanish_animals['bird'])
+# Output:
+# el pajaro
+spanish_animals = {
+  'dog': 'el perro',
+  'cat': 'el gato',
+  'horse': 'el caballo',
+  'bird': 'el pajaro',
+  'bird': 'el ave'
+}
+print(spanish_animals['bird'])
