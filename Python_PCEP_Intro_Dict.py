@@ -24,4 +24,7 @@ spanish_animals = {
   'bird': 'el pajaro',
   'bird': 'el ave'
 }
-print(spanish_animals['bird'])
+# if you print the whole dictionary
+print(spanish_animals)
+# Output:
+# {'dog': 'el perro', 'cat': 'el gato', 'horse': 'el caballo', 'bird': 'el ave'}
