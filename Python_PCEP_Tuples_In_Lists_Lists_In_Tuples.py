@@ -7,3 +7,5 @@ for capital in capitals:
 # Name: London , Country: UK , Population: 8.98
 # Name: Canberra , Country: Australia , Population: 0.4
 # Name: Algiers , Country: Algeria , Population: 3.9
+
+user_data = ('Talhahshah', 'Kanadastani', 1990, [77.0, 78.2, 77.5])
