@@ -29,3 +29,8 @@ print(spanish_animals)
 # Output:
 # {'dog': 'el perro', 'cat': 'el gato', 'horse': 'el caballo', 'bird': 'el ave'}
 # the first bird will be replaced by the second bird
+city_ratings = {
+    'Bangkok': [7, 4, 7, 5],
+    'Hanoi': [7, 6, 4, 5],
+    'Manila': [6, 6, 4, 4, 5]
+}
