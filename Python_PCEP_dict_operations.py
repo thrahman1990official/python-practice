@@ -9,4 +9,7 @@ grades['Anne'] = 'A'
 print(grades)
 # Output:
 # {'John': 'A-', 'Anne': 'A'}
-grades.update({})
+grades.update({'John':'A'})
+print(grades)
+# Output:
+# {'John': 'A', 'Anne': 'A'}
