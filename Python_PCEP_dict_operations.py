@@ -1,4 +1,4 @@
-# dict-operations
+# dictionary-operations
 grades = {}
 grades['John'] = 'A-'
 grades['Anne'] = 'B'
