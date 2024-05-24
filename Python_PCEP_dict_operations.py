@@ -40,3 +40,8 @@ for el in grades.keys():
 # Output:
 # John
 # Anne
+for el in grades.values():
+    print(el)
+# Output:
+# A-
+# B
