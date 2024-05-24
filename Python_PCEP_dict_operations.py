@@ -35,3 +35,8 @@ for el in grades:
 # Output:
 # John
 # Anne
+for el in grades.keys():
+    print(el)
+# Output:
+# John
+# Anne
