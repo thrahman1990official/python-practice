@@ -45,3 +45,8 @@ for el in grades.values():
 # Output:
 # A-
 # B
+for person, grade in grades.items():
+    print(person, 'got', grade)
+# Output:
+# John got A-
+# Anne got B
