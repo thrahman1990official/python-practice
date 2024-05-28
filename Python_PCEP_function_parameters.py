@@ -18,3 +18,8 @@ print_letter_count('Welcome', 'e')
 # Output:
 # Number of e is 2
 print_letter_count('People say nothing is impossible, but I do nothing every day', 'a')
+# Output:
+# Number of a is 2
+print_letter_count('e', 'Welcome')
+# Output:
+# Number of welcome is 0
