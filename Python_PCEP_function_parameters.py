@@ -17,4 +17,4 @@ def print_letter_count(text, letter):
 print_letter_count('Welcome', 'e')
 # Output:
 # Number of e is 2
-  
+print_letter_count('People say nothing is impossible, but I do nothing every day', 'a')
