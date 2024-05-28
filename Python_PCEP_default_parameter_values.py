@@ -11,3 +11,4 @@ def print_letter_count(text='This is the default string to search', letter='a'):
 print_letter_count('How many letters are here?')
 # Number of a is 3
 print_letter_count()
+# Number of a is 2
