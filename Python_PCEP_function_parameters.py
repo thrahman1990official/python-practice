@@ -15,4 +15,6 @@ def print_letter_count(text, letter):
             counter += 1
     print('Number of', letter, 'is', counter)
 print_letter_count('Welcome', 'e')
+# Output:
+# Number of e is 2
   
