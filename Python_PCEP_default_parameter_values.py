@@ -12,3 +12,5 @@ print_letter_count('How many letters are here?')
 # Number of a is 3
 print_letter_count()
 # Number of a is 2
+print_letter_count('Search here', letter='a')
+# Number of a is 1
