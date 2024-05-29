@@ -3,6 +3,8 @@ def show_truth():
     mysterious_var = 'New Surprise!'
     print(mysterious_var)
 show_truth()
+# Output:
+# New Surprise!
 
 def show_truth():
     print(mysterious_var)
