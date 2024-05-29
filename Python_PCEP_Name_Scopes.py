@@ -5,7 +5,6 @@ def show_truth():
 show_truth()
 # Output:
 # New Surprise!
-
 def show_truth():
     print(mysterious_var)
 mysterious_var = 'Surprise!'
