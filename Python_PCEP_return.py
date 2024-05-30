@@ -24,3 +24,9 @@ get_average([2])
 # Output:
 # 2.0
 
+def is_first_last_equal(number_list):
+    if (number_list[0] == number_list[-1]):
+        return True
+    else:
+        return False
+
