@@ -29,4 +29,14 @@ def is_first_last_equal(number_list):
         return True
     else:
         return False
+print(is_first_last_equal([10, 20, 30, 40, 10]))
+# Output:
+# True
+print(is_first_last_equal([10, 20, 30, 40, 50]))
+# Output:
+# False
+print(is_first_last_equal([]))
+# Output:
+# None
+
 
