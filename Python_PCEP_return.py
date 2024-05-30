@@ -20,7 +20,7 @@ def get_average(input_numbers):
     return average
     print('Show me!')
 
-    get_average([2])
-
-    get_average
+get_average([2])
+# Output:
+# 2.0
 
