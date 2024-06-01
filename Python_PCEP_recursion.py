@@ -12,12 +12,11 @@ print(get_factorial_iterative(6))
 # Because 1*2*3*4*5*6
 # Above is an example of iterative 
 # Now will do an example of recursive
-def get_factorial_iterative(number):
-    factorial = 1
-    for x in range(1, number + 1):
-        factorial *= x
-    return factorial
-print(get_factorial_iterative(6))
+def get_factorial_recursive(number):
+    if number <= 1:
+        return 1
+    return number * get_factorial_recursive(number - 1)
+get_factorial_recursive(6)
 # Output:
 # 720
 
