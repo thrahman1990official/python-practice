@@ -13,3 +13,4 @@ print(next(generator))
 # Another way to write the same generator
 for x in get_number():
     print(x)
+# Same output as above
