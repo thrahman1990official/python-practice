@@ -14,3 +14,7 @@ print(next(generator))
 for x in get_number():
     print(x)
 # Same output as above
+numbers = list(get_number())
+print(numbers)
+# Output:
+# [1, 2, 3]
