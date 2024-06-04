@@ -10,3 +10,6 @@ print(next(generator))
 # 1
 # 2
 # 3
+# Another way to write the same generator
+for x in get_number():
+    print(x)
