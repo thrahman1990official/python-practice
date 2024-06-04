@@ -16,6 +16,12 @@ except:
 # 2
 # output:
 # The inverse of 2 is 0.5
+# run the above code 3rd time
+# Input:
+# Enter an integer:
+# 0
+# output:
+# You did not provide a number, so I will not calculate the inverse
 
 
   
