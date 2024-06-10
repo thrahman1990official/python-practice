@@ -22,4 +22,15 @@ def get_user_bday(user_info):
 print('Hi, I will collect some info about your bday!')
 user_info = []
 get_user_bday(user_info)
+
+# Input:
+# Hi, I will collect some info about your bday!
+# What is the day of your bday? 
+# 31
+# What is the month (1-12) of your bday? 
+# 12
+# What is the year of your bday? 
+# 1989
+# Output:
+# So your bday is [31, 12, 1989]
   
