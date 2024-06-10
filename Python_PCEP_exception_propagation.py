@@ -8,4 +8,15 @@ def get_month(user_info):
 
 def get_year(user_info):
   year = int(input('What is the year of your bday? '))
+  user_info.append(year)
+
+def get_user_bday(user_info):
+  get_day(user_info)
+  get_month(user_info)
+  get_year(user_info)
+  print('So your bday is', user_info)
+
+print('Hi, I will collect some info about your bday!')
+user_info = []
+get_user_bday(user_info)
   
