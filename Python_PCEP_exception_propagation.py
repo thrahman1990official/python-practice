@@ -11,10 +11,13 @@ def get_year(user_info):
   user_info.append(year)
 
 def get_user_bday(user_info):
-  get_day(user_info)
-  get_month(user_info)
-  get_year(user_info)
-  print('So your bday is', user_info)
+    try:
+      get_day(user_info)
+      get_month(user_info)
+      get_year(user_info)
+      print('So your bday is', user_info)
+    except ValueError:
+      print('You entered incorrect data, bye!')
 
 print('Hi, I will collect some info about your bday!')
 user_info = []
